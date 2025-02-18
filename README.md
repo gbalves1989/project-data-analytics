@@ -2,10 +2,10 @@
 Projeto de análise de dados usando FastAPI e Pandas
 
 - Rodando a aplicação local
-  cmd: python main.py
+ - cmd: python main.py
 
 - Rodando via docker
-  cmd: docker-compose up -d
+ - cmd: docker-compose up -d
 
 - URL da aplicação
-  http://localhost:8000
+ - http://localhost:8000
