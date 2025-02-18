@@ -1,0 +1,14 @@
+services:
+  python_pandas_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - data:/mnt/data
+    environment:
+      - PYTHONUNBUFFERED=1
+
+volumes:
+  data:
